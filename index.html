@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raclett3</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #222;
+      color: #FFF;
+      font-family: monospace;
+      margin: 0;
+      font-size: 120%;
+      word-break: break-word;
+    }
+
+    .item {
+      margin: auto;
+      padding: 10px;
+      width: 90%;
+      max-width: 768px;
+    }
+
+    .links {
+      display: flex;
+      padding: 0 10px;
+    }
+
+    .link {
+      width: 100%;
+      text-align: center;
+      transition-duration: 0.2s;
+      padding: 50px 0;
+    }
+
+    .link:hover {
+      background-color: rgba(255, 255, 255, 0.1)
+    }
+
+    hr {
+      border: 0.5px solid #FFF;
+      width: 90%;
+      max-width: 720px;
+    }
+
+    .code {
+      width: 90%;
+      padding: 5%;
+      margin: auto;
+      background-color: #000;
+    }
+    
+    a {
+      color: #FFF;
+    }
+
+    h1 {
+      font-size: 250%;
+    }
+
+    h2 {
+      font-size: 200%;
+    }
+  </style>
+</head>
+<body>
+  <div class="item">
+    <h1>Raclett3.com</h1>
+    <p>This is the portfolio of Raclett3</p>
+  </div>
+  <hr>
+  <div class="item links">
+    <a href="#about" class="link">About</a>
+    <a href="#works" class="link">Works</a>
+    <a href="#contact" class="link">Contact</a>
+  </div>
+  <div class="item">
+    <h2>About:</h2>
+    <div class="code" id="about">
+      <p>$ cat raclett3.toml</p>
+      <p>name = "Raclett3"</p>
+      <p>created-at = "2002-11-26"</p>
+      <p>skills = ["TypeScript", "JavaScript", "C", "Rust"]</p>
+    </div>
+  </div>
+  <div class="item" id="works">
+    <h2>Works:</h2>
+    <p>Works in progress: Nothing special to show</p>
+  </div>
+  <hr>
+  <div class="item" id="contact">
+    <h2>Contact:</h2>
+    <p>Email: im [at] s283.net</p>
+    <p>Twitter: <a href="https://twitter.com/raclett3">@Raclett3</a></p>
+    <p>GitHub: <a href="https://github.com/Raclett3">Raclett3</a></p>
+  </div>
+</body>
+</html>
